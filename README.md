@@ -367,7 +367,7 @@
 
 **[⬆ 返回顶部](#table-of-contents)**
 
-## Browsers / Platforms
+## 浏览器 / 平台
 
 ### Apple iOS
 
@@ -375,22 +375,22 @@
 <!-- Smart App Banner -->
 <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
 
-<!-- Disable automatic detection and formatting of possible phone numbers -->
+<!-- 禁止自动检测和格式化可能存在的电话号码 -->
 <meta name="format-detection" content="telephone=no">
 
-<!-- Launch Icon (180x180px or larger) -->
+<!-- 启动图标 （180x180px 后更大） -->
 <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
 
-<!-- Launch Screen Image -->
+<!-- 屏幕启动图片 -->
 <link rel="apple-touch-startup-image" href="/path/to/launch.png">
 
-<!-- Launch Icon Title -->
+<!-- 启动图标的标题 -->
 <meta name="apple-mobile-web-app-title" content="App Title">
 
-<!-- Enable standalone (full-screen) mode -->
+<!-- 启用独立 （全屏） 模式 -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
+<!-- 状态栏外观（除非启用全屏模式，否则无效） -->
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 <!-- iOS app deep linking -->
@@ -398,14 +398,14 @@
 <link rel="alternate" href="ios-app://APP-ID/http/url-sample.com">
 ```
 
-- 📖 [Configuring Web Applications](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+- 📖 [配置Web应用](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
 
 ### Google Android
 
 ```html
 <meta name="theme-color" content="#E64545">
 
-<!-- Add to home screen -->
+<!-- 添加到主屏幕 -->
 <meta name="mobile-web-app-capable" content="yes">
 <!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 
@@ -419,24 +419,24 @@
 ```html
 <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
 
-<!-- Disable translation prompt -->
+<!-- 禁止翻译提示 -->
 <meta name="google" content="notranslate">
 ```
 
 ### Microsoft Internet Explorer
 
 ```html
-<!-- Force IE 8/9/10 to use its latest rendering engine -->
+<!-- 强制IE 8/9/10 使用其最新的渲染引擎 -->
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<!-- Disable automatic detection and formatting of possible phone numbers by Skype Toolbar browser extension -->
+<!-- 禁止通过Skype浏览器扩展自动检测和格式化可能存在的手机号码 -->
 <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
 
-<!-- Windows Tiles -->
+<!-- Windows 磁贴 -->
 <meta name="msapplication-config" content="/browserconfig.xml">
 ```
 
-Minimum required xml markup for `browserconfig.xml`:
+最低限度的`browserconfig.xml`配置
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -452,62 +452,63 @@ Minimum required xml markup for `browserconfig.xml`:
 </browserconfig>
 ```
 
-- 📖 [Browser configuration schema reference](https://msdn.microsoft.com/en-us/library/dn320426.aspx)
+- 📖 [浏览器配置架构参考 ](https://msdn.microsoft.com/en-us/library/dn320426.aspx)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 返回顶部](#table-of-contents)**
 
-## Browsers (Chinese)
+## 浏览器 (中国)
 
-### 360 Browser
+### 360浏览器
 
 ```html
-<!-- Select rendering engine order -->
+<!-- 选择渲染引擎的使用顺序  -->
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 ```
 
-### QQ Mobile Browser
+### QQ 移动浏览器
 
 ```html
 <!-- Locks the screen into the specified orientation -->
+<!-- 锁定屏幕方向（横屏或竖屏） -->
 <meta name="x5-orientation" content="landscape/portrait">
 
-<!-- Display this document in fullscreen -->
+<!-- 文档全屏显示-->
 <meta name="x5-fullscreen" content="true">
 
-<!-- Document will be displayed in "application mode" (fullscreen, etc.) -->
+<!-- 文档使用“应用模式”显示（全屏，等） -->
 <meta name="x5-page-mode" content="app">
 ```
 
-### UC Mobile Browser
+### UC 移动浏览器
 
 ```html
-<!-- Locks the screen into the specified orientation -->
+<!-- 锁定屏幕方向（横屏或竖屏） -->
 <meta name="screen-orientation" content="landscape/portrait">
 
-<!-- Display this document in fullscreen -->
+<!-- 文档全屏显示-->
 <meta name="full-screen" content="yes">
 
-<!-- UC browser will display images even if in "text mode" -->
+<!-- 即使在“文本模式”下，UC浏览器也会显示图片 -->
 <meta name="imagemode" content="force">
 
-<!-- Document will be displayed in "application mode"(fullscreen, forbidding gesture, etc.) -->
+<!-- 文档使用“应用模式”显示（全屏、禁止手势，等） -->
 <meta name="browsermode" content="application">
 
-<!-- Disabled the UC browser's "night mode" for this document -->
+<!-- 在该文档禁用U浏览器的"夜间模式" -->
 <meta name="nightmode" content="disable">
 
-<!-- Simplify the document to reduce data transfer -->
+<!-- 简化文档来减少数据传输 -->
 <meta name="layoutmode" content="fitscreen">
 
-<!-- Disable the UC browser's feature of "scaling font up when there are many words in this document" -->
+<!-- 禁用UC浏览器的“当文档中有较多文字时缩放字体”功能 -->
 <meta name="wap-font-scale" content="no">
 ```
 
-- 📖 [UC Browser Docs](https://www.uc.cn/download/UCBrowser_U3_API.doc)
+- 📖 [UC 浏览器文档](https://www.uc.cn/download/UCBrowser_U3_API.doc)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 回到顶部](#table-of-contents)**
 
-## App Links
+## App 链接
 
 ```html
 <!-- iOS -->
@@ -520,29 +521,29 @@ Minimum required xml markup for `browserconfig.xml`:
 <meta property="al:android:app_name" content="App Links">
 <meta property="al:android:package" content="org.applinks">
 
-<!-- Web fall back -->
+<!-- Web 回退 -->
 <meta property="al:web:url" content="https://applinks.org/documentation">
 ```
 
-- 📖 [App Links](https://applinks.org/documentation/)
+- 📖 [App 链接](https://applinks.org/documentation/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 回到顶部](#table-of-contents)**
 
-## Other Resources
+## 其他资源
 
-- 📖 [HTML5 Boilerplate Docs: The HTML](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
-- 📖 [HTML5 Boilerplate Docs: Extend and customize](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
+- 📖 [HTML5 Boilerplate 文档: The HTML](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
+- 📖 [HTML5 Boilerplate 文档: 扩展和定制](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 回到顶部](#table-of-contents)**
 
-## Related Projects
+## 相关项目
 
-- [Atom HTML Head Snippets](https://github.com/joshbuchea/atom-html-head-snippets) - Atom package for `HEAD` snippets
-- [Sublime Text HTML Head Snippets](https://github.com/marcobiedermann/sublime-head-snippets) - Sublime Text package for `HEAD` snippets
-- [head-it](https://github.com/hemanth/head-it) - CLI interface for `HEAD` snippets
-- [vue-head](https://github.com/ktquez/vue-head) - Manipulating the meta information of the `HEAD` tag for Vue.js
+- [Atom HTML Head Snippets](https://github.com/joshbuchea/atom-html-head-snippets) - Atom`HEAD`代码片段包
+- [Sublime Text HTML Head Snippets](https://github.com/marcobiedermann/sublime-head-snippets) - Sublime`HEAD`代码片段包
+- [head-it](https://github.com/hemanth/head-it) - `HEAD`代码片段的CLI接口
+- [vue-head](https://github.com/ktquez/vue-head) - 在Vue.js中操作`HEAD`标签的meta信息
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 回到顶部](#table-of-contents)**
 
 ## Other Formats
 
