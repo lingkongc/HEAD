@@ -545,13 +545,13 @@
 
 **[⬆ 回到顶部](#table-of-contents)**
 
-## Other Formats
+## 其他格式
 
 - 📄 [PDF](https://gitprint.com/joshbuchea/HEAD/blob/master/README.md)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 回到顶部](#table-of-contents)**
 
-## Translations
+## 翻译
 
 - 🇧🇷 [Brazilian Portuguese](https://github.com/Webschool-io/HEAD)
 - 🇨🇳 [Chinese (Simplified)](https://github.com/Amery2010/HEAD)
@@ -565,41 +565,41 @@
 
 **[⬆ back to top](#table-of-contents)**
 
-## Contributing
+## 贡献
 
-**Open an issue or a pull request to suggest changes or additions.**
+**开启一个issue或通过pull request来提出修改和补充**
 
-### Guide
+### 指南
 
-The **HEAD** repository consists of two branches:
+**HEAD** 仓库包含两个分支
 
 #### 1. `master`
 
-This branch consists of the `README.md` file that is automatically reflected on the [htmlhead.dev](https://htmlhead.dev/) website. All changes to the content of the cheat sheet as such should be directed to this file.
+该分支包含`README.md`文件，该文件的修改会自动同步到[htmlhead.dev](https://htmlhead.dev/)网站。应当直接在该文件上进行内容修改。
 
-Please follow these steps for pull requests:
+请按照以下步骤进行pull request
 
-- Modify only one tag, or one related set of tags at a time
-- Use double quotes on attributes
-- Don't include a trailing slash in self-closing elements — the HTML5 spec says they're optional
-- Consider including a link to documentation that supports your change
+- 只修改一个标签，或者一次修改一组相关标签
+- 对属性使用双引号
+- 不要在自闭合标签内使用斜杠 —— HTML5规范说他们是可选的
+- 考虑添加一些文档链接以支持你所提到的变化
 
 #### 2. `gh-pages`
 
-This branch is responsible for the [htmlhead.dev](https://htmlhead.dev/) website. We use [Jekyll](https://jekyllrb.com/) to deploy the `README.md` Markdown file through [GitHub Pages](https://pages.github.com/). All website related modifications must be directed here.
+该分支负责[htmlhead.dev](https://htmlhead.dev/)网站。我们使用[Jekyll](https://jekyllrb.com/)通过[GitHub Pages](https://pages.github.com/)服务部署了`README.md`文件。所有与网站相关的修改都必须指向此处。
+ 
+你可能需要通过[Jekyll 文档](https://jekyllrb.com/docs/home/)来了解Jekyll，以便在该分支上工作。
 
-You may want to go through the [Jekyll Docs](https://jekyllrb.com/docs/home/) and understand how Jekyll works before working on this branch.
+### 贡献者
 
-### Contributors
+看看所有超棒的[贡献者们](https://github.com/joshbuchea/HEAD/graphs/contributors).
 
-Check out all the super awesome [contributors](https://github.com/joshbuchea/HEAD/graphs/contributors).
-
-## Author
+## 作者
 
 **[Josh](https://twitter.com/joshbuchea)**
 
-## License
+## 协议
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 回到首页](#table-of-contents)**
