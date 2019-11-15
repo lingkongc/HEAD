@@ -248,27 +248,27 @@
 ## 图标
 
 ```html
-<!-- For IE 10 and below -->
-<!-- Place favicon.ico in the root directory - no tag necessary -->
+<!-- 针对IE10及其以下版本 -->
+<!-- 将favicon.ico放在根目录下 - 不需要标签 -->
 
-<!-- Icon in the highest resolution we need it for -->
+<!-- 我们需要的图标的最高分辨率 -->
 <link rel="icon" sizes="192x192" href="/path/to/icon.png">
 
-<!-- Apple Touch Icon (reuse 192px icon.png) -->
+<!-- 苹果触摸图标（尺寸192px） -->
 <link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
 
-<!-- Safari Pinned Tab Icon -->
+<!-- Safari选项卡图标 -->
 <link rel="mask-icon" href="/path/to/icon.svg" color="blue">
 ```
 
-- 📖 [All About Favicons (And Touch Icons)](https://bitsofco.de/all-about-favicons-and-touch-icons/)
-- 📖 [Creating Pinned Tab Icons](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html)
-- 📖 [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
-- 📖 [Icons & Browser Colors](https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/)
+- 📖 [所有关于Favicons (和触摸图标)的信息](https://bitsofco.de/all-about-favicons-and-touch-icons/)
+- 📖 [创建选项卡图标](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html)
+- 📖 [Favicon对照表](https://github.com/audreyr/favicon-cheat-sheet)
+- 📖 [图标 & 浏览器颜色](https://developers.google.com/web/fundamentals/design-and-ux/browser-customization/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 回到顶部](#table-of-contents)**
 
-## Social
+## 社交
 
 ### Facebook Open Graph
 
@@ -285,9 +285,9 @@
 <meta property="article:author" content="">
 ```
 
-- 📖 [Facebook Open Graph Markup](https://developers.facebook.com/docs/sharing/webmasters#markup)
-- 📖 [Open Graph protocol](http://ogp.me/)
-- 🛠 Test your page with the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- 📖 [Facebook 的 Open Graph 标记](https://developers.facebook.com/docs/sharing/webmasters#markup)
+- 📖 [Open Graph 协议](http://ogp.me/)
+- 🛠 页面验证 [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
 
 ### Twitter Card
 
@@ -302,13 +302,13 @@
 <meta name="twitter:image:alt" content="A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.">
 ```
 
-- 📖 [Getting started with cards — Twitter Developers](https://dev.twitter.com/cards/getting-started)
-- 🛠 Test your page with the [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+- 📖 [名片使用指南 — Twitter 开发者](https://dev.twitter.com/cards/getting-started)
+- 🛠 页面验证 [Twitter Card Validator](https://cards-dev.twitter.com/validator)
 
 ### Twitter Privacy
-If you embed tweets in your website, Twitter can use information from your site to tailor content and suggestions to Twitter users. [More about Twitter privacy options](https://dev.twitter.com/web/overview/privacy#what-privacy-options-do-website-publishers-have).
+如果您在网站中嵌入了Twitter，Twitter就可以使用网站的信息来为Twitter用户定制内容和建议。[更多Twitter隐私相关条款](https://dev.twitter.com/web/overview/privacy#what-privacy-options-do-website-publishers-have).
 ```html
-<!-- disallow Twitter from using your site's info for personalization purposes -->
+<!-- 禁止Twitter使用你的网站信息来实现个性化 -->
 <meta name="twitter:dnt" content="on">
 ```
 
@@ -324,13 +324,13 @@ If you embed tweets in your website, Twitter can use information from your site 
       <meta itemprop="image" content="https://example.com/image.jpg">
 ```
 
-**Note:** These meta tags require the `itemscope` and `itemtype` attributes to be added to the `<html>` tag.
+**注意:** 这些Meta标签需要在`<html>`标签中添加 `itemscope` 和 `itemtype` 属性。
 
-- 🛠 Test your page with the [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
+- 🛠 验证页面 [结构化数据测试工具](https://developers.google.com/structured-data/testing-tool/)
 
 ### Pinterest
 
-Pinterest lets you prevent people from saving things from your website, according [to their help center](https://help.pinterest.com/en/business/article/prevent-saves-to-pinterest-from-your-site). The `description` is optional.
+根据 [帮助中心](https://help.pinterest.com/en/business/article/prevent-saves-to-pinterest-from-your-site)，Pinterest允许你禁止他人保存你网站上的内容， `description`可选。
 
 ```html
 <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
@@ -342,15 +342,15 @@ Pinterest lets you prevent people from saving things from your website, accordin
 <meta charset="utf-8">
 <meta property="op:markup_version" content="v1.0">
 
-<!-- The URL of the web version of your article -->
+<!-- 你文章的web版路径 -->
 <link rel="canonical" href="https://example.com/article.html">
 
-<!-- The style to be used for this article -->
+<!-- 该文章的样式 -->
 <meta property="fb:article_style" content="myarticlestyle">
 ```
 
-- 📖 [Creating Articles - Instant Articles](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
-- 📖 [Code Samples - Instant Articles](https://developers.facebook.com/docs/instant-articles/reference)
+- 📖 [创建文章 - Instant Articles](https://developers.facebook.com/docs/instant-articles/guides/articlecreate)
+- 📖 [代码示例 - Instant Articles](https://developers.facebook.com/docs/instant-articles/reference)
 
 ### OEmbed
 
@@ -363,9 +363,9 @@ Pinterest lets you prevent people from saving things from your website, accordin
   title="oEmbed Profile: XML">
 ```
 
-- 📖 [oEmbed format](https://oembed.com/)
+- 📖 [oEmbed 格式](https://oembed.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ 返回顶部](#table-of-contents)**
 
 ## Browsers / Platforms
 
